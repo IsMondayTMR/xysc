@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -14,16 +15,26 @@
         <processorPath useClasspath="false">
           <entry name="D:/BaiduNetdiskDownload/dev/repository/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
+        <module name="xuecheng-plus-content-service" />
+        <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-content-model" />
+        <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="xucheng-plus-content" target="17" />
       <module name="xyscProject" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xucheng-plus-content" options="-parameters" />
       <module name="xuecheng-plus-base" options="" />
+      <module name="xuecheng-plus-content" options="" />
+      <module name="xuecheng-plus-content-api" options="" />
+      <module name="xuecheng-plus-content-model" options="" />
+      <module name="xuecheng-plus-content-service" options="" />
       <module name="xuecheng-plus-parent" options="" />
     </option>
   </component>

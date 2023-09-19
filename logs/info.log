@@ -1,0 +1,18 @@
+2023-09-04 17:43:26,435 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e70a728, started on Mon Sep 04 11:03:39 PDT 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@64ec96c6
+2023-09-04 17:43:26,435 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e70a728, started on Mon Sep 04 11:03:39 PDT 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@64ec96c6
+2023-09-04 17:43:26,494 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2023-09-04 17:43:26,494 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2023-09-04 17:43:26,496 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2023-09-04 17:43:26,496 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2023-09-04 17:43:26,499 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-09-04 17:43:26,499 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2023-09-04 17:43:26,499 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2023-09-04 17:43:26,499 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2023-09-04 17:43:26,818 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-09-04 17:43:26,818 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-09-04 17:43:26,822 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2023-09-04 17:43:26,822 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2023-09-04 17:43:26,824 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2023-09-04 17:43:26,824 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2023-09-04 17:43:26,825 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-04 17:43:26,825 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
